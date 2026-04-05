@@ -1,0 +1,53 @@
+# Python cache
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# Environment variables
+
+.env
+
+# Model files (generated)
+
+flask/*.pkl
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Build files
+
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+
+*.tmp
+*.swp
+
+# Flask instance folder (if used)
+
+instance/
